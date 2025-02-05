@@ -1,0 +1,42 @@
+.container {
+    width: 90%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.formContainer {
+    display: flex;
+    width: 400px;
+    margin-left: 6px;
+
+}
+
+.container input {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    outline: 2px solid gray;
+}
+
+.container input:hover {
+    outline: 2px solid rgb(0, 115, 202);
+}
+
+.container button {
+    width: 80px;
+    height: 30px;
+    padding-bottom: 0.1em;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(197, 31, 31);
+    border: none;
+    outline: 2px solid rgb(197, 31, 31);
+    cursor: pointer;
+}
+
+.container button:hover {
+    outline-color: rgb(255, 136, 0);
+}

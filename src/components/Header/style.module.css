@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btns {
+    display: flex;
+    height: 47px;
+}
+
+.contact {
+    height: 40px;
+    align-self: center;
+    font-size: 18px;
+    color: red;
+    padding:  9px 10px 5px 10px;
+    background: white;
+    outline: 1px solid #e83a4b;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.contact:hover {
+    color: white;
+    background: #e83a4b;
+}
+
+.switchTheme {
+    display: block;
+    margin-bottom: 10%;
+}

@@ -1,0 +1,13 @@
+.container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.minor_bean {
+        width: 20%;
+        object-fit:contain;
+}

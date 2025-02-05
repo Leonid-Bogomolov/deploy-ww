@@ -1,0 +1,68 @@
+.home_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 88vh;
+    margin: 0 auto;
+}
+
+.marker {
+    position: absolute;
+    top: -87px;
+    left: 0;
+}
+
+.info {
+    width: 40%;
+    text-align: center;
+}
+
+.home_container img {
+    object-fit: contain;
+    height: 80vh;
+}
+
+.imgWrapper {
+    width: 55%;
+    height: 100%;
+}
+
+.imgWrapper:hover {
+    animation-name: favicon-shake;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes favicon-shake {          /* анимация контейнера с картинкой*/
+    0%,
+    0% { 
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+}
+
+.info h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-bottom: 15px;
+    color: red;
+}
+
+.info p {
+    font-size: 20px;
+    color: red;
+}
+

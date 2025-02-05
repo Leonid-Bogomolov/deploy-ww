@@ -1,0 +1,47 @@
+.itemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recipe h3 {
+    text-align: left;
+    color: #e83a4b;
+    margin-bottom: 5px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0.5%;    
+}
+
+.recipe:hover {
+    border-color: #e83a4b;
+    background-color: white;
+}
+
+.recipe p {
+    color: #bd2328;
+}
+
+.recipe a {
+    display: flex;
+    color: #e83a4b;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    margin-top: .8rem;
+    position: relative;
+    text-align: left;
+}
+
+.recipe a span {
+    height: 18px;
+    margin-right: 5px;
+}

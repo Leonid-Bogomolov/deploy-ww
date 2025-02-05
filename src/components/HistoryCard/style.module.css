@@ -1,0 +1,26 @@
+.history {
+    width: 24%;
+    text-align: start;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0.5%;
+}
+
+.history:hover {
+    border-color: #e83a4b;
+    background-color: white;
+}
+
+.history h2 {
+    color: #e83a4b;
+    margin-bottom: 10px;
+}
+
+.spanH3 {
+    margin-right: 10px;
+}
+
+.history p {
+    color: #e83a4b;
+}

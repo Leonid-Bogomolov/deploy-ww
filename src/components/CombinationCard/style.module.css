@@ -1,0 +1,26 @@
+.combination {
+    width: 24%;
+    text-align: start;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0.5%;
+}
+
+.combination:hover {
+    border-color: #e83a4b;
+    background-color: white;
+}
+
+.combination h2 {
+    color: #e83a4b;
+    margin-bottom: 10px;
+}
+
+.spanH3 {
+    margin-right: 10px;
+}
+
+.combination p {
+    color: #e83a4b;
+}

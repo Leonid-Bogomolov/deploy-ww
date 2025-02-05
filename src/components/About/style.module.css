@@ -1,0 +1,93 @@
+.container {
+    position: relative;
+    height: auto;
+    width: 90%;
+    padding: 8rem 2rem;
+    color: #bd2328;
+    background: #ee9085;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+.marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container hr {
+    background-color: #bd2328;
+    border: none;
+    height: 1px;
+    margin: 2rem 1rem;
+}
+
+.info_numbers {
+    grid-gap: 2rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+}
+
+.info_numbers h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.info_numbers p {
+    font-size: 1rem;
+}
+
+.info_numbers_last a {
+    color: #dd4045;
+    display: inline-block;
+    margin-left: .2rem;
+    position: relative;
+}
+
+.info_numbers_last a:before {
+    background-color: #dd4045;
+    bottom: -.1rem;
+    content: "";
+    height: .1rem;
+    left: 0;
+    position: absolute;
+    transition: width .3s linear;
+    width: 0;
+}
+
+.svg_inline__fa {
+    display: inline-block;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.25em;
+    margin-left: 5px;
+}
+
+.info_numbers_last {
+    font-size: 1.2rem;
+    margin: 5rem 0 0 3rem;
+}
+
+.info_numbers_last ul {
+    margin-top: 1rem;
+}
+
+.AboutAddition {
+    margin: 3rem;
+    text-align: left;
+    width: 50%;
+}
+
+.AboutAddition h2 {
+    font-weight: 300;
+    margin: .3rem 0;
+}
+
+.AboutAddition ul {
+    margin-bottom: 1rem;
+}
+
+

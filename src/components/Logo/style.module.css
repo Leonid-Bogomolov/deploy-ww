@@ -1,0 +1,44 @@
+.logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: red;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    color: red;
+  }
+  
+  .logo img {
+    width: 40%;
+  }
+
+  .logo img:hover {
+    animation-name: favicon-shake;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  
+@keyframes favicon-shake {          /* анимация контейнера с картинкой*/
+  0%,
+  0% {
+      transform: rotate(0);
+  }
+  25% {
+      transform: rotate(5deg);
+  }
+  50% {
+      transform: rotate(-5deg);
+  }
+  75% {
+      transform: rotate(5deg);
+  }
+}
+
+  .logo span {
+    font-family: 'Lobster';  /* шрифт тоже скачали с сайтапрототипа: devtools / Network / Font / скачиваем кликом правой кнопкой по файлу выбранного шрифта / переносим в папку fonts  */
+    font-size: 20px;
+  }
+  

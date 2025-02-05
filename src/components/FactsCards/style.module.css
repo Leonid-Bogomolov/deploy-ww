@@ -1,0 +1,33 @@
+.container {
+    width: 96%;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: transparent;
+}
+
+.container h1 {
+    text-align: center;
+    color: #e83a4b;
+}
+
+.imgContainer {
+    width: 24%;
+    text-align: center;
+    margin: 0.5%;
+}
+
+.happy_bean {
+    width: 60%;
+    object-fit:contain
+}
+
+.flexContainer {
+    width: 96%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: transparent; 
+}

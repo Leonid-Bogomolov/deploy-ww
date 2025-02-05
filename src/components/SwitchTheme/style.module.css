@@ -1,0 +1,48 @@
+.div_theme {
+    padding: 8px 10px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.theme {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #434343;
+    text-align: center;
+    background-color: #b5b5b5;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.div_theme:hover {
+    background: white;
+    outline: 1px solid red;
+}
+
+.theme p {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.dark_theme {
+    display: inline-block;
+    width: 8.5px;
+    height: 9px;
+    border-radius: 50%;
+    align-self: center;
+    background: black;
+}
+
+.light_theme {
+    display: inline-block;
+    width: 8.5px;
+    height: 9px;
+    border-radius: 50%;
+    align-self: center;
+    background: white;
+}
