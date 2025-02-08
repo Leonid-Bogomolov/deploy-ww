@@ -11,14 +11,14 @@ const Nav = () => {
 
     return (
         <nav className={style.container}>
-                <Link to="/beans">Beans</Link>                       {/* Когда используется библиотеку React-Router-DOM, то уже не используются теги «a», используется
+                <Link to="/deploy-ww/beans">Beans</Link>                       {/* Когда используется библиотеку React-Router-DOM, то уже не используются теги «a», используется
 //                                                                          тег link импортируемый из библиотеки React-Router-DOM для перехода по странице  */}     
-                <Link to="/facts">Facts</Link>
-                <Link to="/recipes">Resipes</Link>
-                <Link to="/combinations">Combinations</Link>
-                <Link to="/history">History</Link>
-                {/*<Link to="/#аbout">About</Link>*/}
-                <HashLink smooth to="/#about">About</HashLink>        {/* обращение к библиотеке 'react-router-hash-link' необходимой для перехода по ссылкам на "id" внутри страниц */}
+                <Link to="/deploy-ww/facts">Facts</Link>
+                <Link to="v/recipes">Resipes</Link>
+                <Link to="/deploy-ww/combinations">Combinations</Link>
+                <Link to="/deploy-ww/history">History</Link>
+                {/*<Link to="/deploy-ww/#аbout">About</Link>*/}
+                <HashLink smooth to="/deploy-ww/#about">About</HashLink>        {/* обращение к библиотеке 'react-router-hash-link' необходимой для перехода по ссылкам на "id" внутри страниц */}
                 {/*<SwitchTheme />*/}                                           {/* Вынесли в Header */}
                 <Modal isModal={isModal} onClick={() => setIsModal(false)}/>    {/*  передаём функцию изменения состояния в обработчик onClick, причем она будет функцией
 //                                                                                   обратного вызова (callback), при вызове которой состояние будет изменяться на false 
