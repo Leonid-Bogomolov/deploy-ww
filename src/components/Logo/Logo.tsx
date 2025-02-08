@@ -6,7 +6,7 @@ import style from './style.module.css'          // при модульной з�
 
 const Logo = () => {
     return (
-        <Link to="/"  className={style.logo}>           
+        <Link to="/home"  className={style.logo}>           
             <img src={logo_img} alt=""/>        {/* В отличии от стандартного HTML при использовании React путь до картинки должен указываться через импортированую переменную */}
             <span>Jelly Belly</span>
         </Link>
