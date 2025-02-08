@@ -33,7 +33,7 @@ type Props = {
 
 const Card : FC<Props> = ({data}) => {
     return (
-    <Link to={`/deploy-ww/${data.beanId}`} className={style.card}>                   {/* в router.tsx передастся /bean/:id ; где id это beanId */}
+    <Link to={`/deploy-ww/bean/${data.beanId}`} className={style.card}>                   {/* в router.tsx передастся /bean/:id ; где id это beanId */}
         <h2>{data.flavorName}</h2>
         <img src={data.imageUrl} alt=''/>
         <p>{data.description}</p>
