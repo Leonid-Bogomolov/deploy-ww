@@ -8,7 +8,7 @@ const Footer = () => {
     return (
             <div className={style.container}>
                 <div>
-                    <HashLink smooth to="/#home">
+                    <HashLink smooth to="/deploy-ww/#home">
                         <img src={logo_img} alt="Jwlly Belly Wiki"></img>
                     </HashLink>
                     <p>
@@ -20,14 +20,14 @@ const Footer = () => {
                 <div className={style.site_map}>
                     <h3>Site Map</h3>
                     <ul>
-                        <li><Link to="/api">API Documentation</Link></li>
-                        <li><Link to="/beans">Beans</Link></li>
-                        <li><Link to="/facts">Facts</Link></li>
-                        <li><Link to="/recipes">Recipes</Link></li>
-                        <li><Link to="/combinations">Combinations</Link></li>
-                        <li><Link to="/history">History</Link></li>
-                        <li><HashLink smooth to="/#about">About</HashLink></li>
-                        <li><HashLink smooth to="/#contact">Contact us</HashLink></li>
+                        <li><Link to="/deploy-ww/api">API Documentation</Link></li>
+                        <li><Link to="/deploy-ww/beans">Beans</Link></li>
+                        <li><Link to="/deploy-ww/facts">Facts</Link></li>
+                        <li><Link to="/deploy-ww/recipes">Recipes</Link></li>
+                        <li><Link to="/deploy-ww/combinations">Combinations</Link></li>
+                        <li><Link to="/deploy-ww/history">History</Link></li>
+                        <li><HashLink smooth to="/deploy-ww/#about">About</HashLink></li>
+                        <li><HashLink smooth to="/deploy-ww/#contact">Contact us</HashLink></li>
                     </ul>
                 </div>
                 <div>
