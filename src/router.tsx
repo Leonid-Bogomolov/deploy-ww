@@ -24,13 +24,13 @@ const router = createBrowserRouter([         // используем функц�
         children: [                                     // теперь главная страница будет перересовываться в зависимости от вызова той или иной страницы, выступающих как дочерних,
         //                                                   а Header и Footer будут оставаться на месте
             {index: true, element: <Home />},
-            {path: "bean/:id", element: <BeanPage />},  // пробелы в адресе не ставить !!!
-            {path: "beans", element: <Beans />},
-            {path: "facts", element: <Facts />},
-            {path: "recipes", element: <Recipes />},
-            {path: "combinations", element: <Combinations />},
-            {path: "History", element: <History />},
-            {path: "review", element: <Review />},      // страница формы
+            {path: "deploy-ww/bean/:id", element: <BeanPage />},  // пробелы в адресе не ставить !!!
+            {path: "deploy-ww/beans", element: <Beans />},
+            {path: "deploy-ww/facts", element: <Facts />},
+            {path: "deploy-ww/recipes", element: <Recipes />},
+            {path: "deploy-ww/combinations", element: <Combinations />},
+            {path: "deploy-ww/History", element: <History />},
+            {path: "deploy-ww/review", element: <Review />},      // страница формы
             {path: "*", element: <NotFound />},
         ],
     },
