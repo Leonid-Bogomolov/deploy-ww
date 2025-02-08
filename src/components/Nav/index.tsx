@@ -14,7 +14,7 @@ const Nav = () => {
                 <Link to="/deploy-ww/beans">Beans</Link>                       {/* Когда используется библиотеку React-Router-DOM, то уже не используются теги «a», используется
 //                                                                          тег link импортируемый из библиотеки React-Router-DOM для перехода по странице  */}     
                 <Link to="/deploy-ww/facts">Facts</Link>
-                <Link to="v/recipes">Resipes</Link>
+                <Link to="/deploy-ww/recipes">Resipes</Link>
                 <Link to="/deploy-ww/combinations">Combinations</Link>
                 <Link to="/deploy-ww/history">History</Link>
                 {/*<Link to="/deploy-ww/#аbout">About</Link>*/}
