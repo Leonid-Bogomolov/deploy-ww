@@ -10,7 +10,7 @@ const Header = () => {
             <Logo />
             <Nav />
             <div className={style.btns}>
-                <HashLink smooth to="/deploy-ww/#contact" className={style.contact}>Contact us</HashLink>
+                <HashLink smooth to="/#contact" className={style.contact}>Contact us</HashLink>
                 <div className="switchTheme">
                     <SwitchTheme />
                 </div>
