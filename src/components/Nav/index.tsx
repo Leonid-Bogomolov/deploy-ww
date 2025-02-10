@@ -11,7 +11,7 @@ const Nav = () => {
 
     return (
         <nav className={style.container}>
-                <Link to="/deploy-ww/beans">Beans</Link>                       {/* Когда используется библиотеку React-Router-DOM, то уже не используются теги «a», используется
+                <Link to="/beans">Beans</Link>                       {/* Когда используется библиотеку React-Router-DOM, то уже не используются теги «a», используется
 //                                                                          тег link импортируемый из библиотеки React-Router-DOM для перехода по странице  */}     
                 <Link to="/facts">Facts</Link>
                 <Link to="/recipes">Resipes</Link>
