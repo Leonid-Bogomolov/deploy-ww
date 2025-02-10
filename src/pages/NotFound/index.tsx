@@ -7,6 +7,7 @@ const NotFound = () => {
             <div className={style.container}>
                 <h1>Page not found</h1>
                 <img src={minor_bean} alt="minor bean" className={style.minor_bean}></img>
+                <h2>Click on the logo to go to the main page</h2>
             </div>
         </>
     )
