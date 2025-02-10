@@ -18,19 +18,19 @@ const router = createBrowserRouter([         // используем функц�
 
     // Так теперь выглядит начинка роутера:
     {
-        path: "deploy-ww",                                      // вызываем начальную страницу
+        path: "/",                                      // вызываем начальную страницу
         element: <Layout />,                            // вызываем компонент <Layout /> 
         loader: Loader,                                 // Загрузчик вызывается не в качестве компонента, а в качестве функции, что бы пользовтель мог видеть, что идёт загрузка страниц
         children: [                                     // теперь главная страница будет перересовываться в зависимости от вызова той или иной страницы, выступающих как дочерних,
         //                                                   а Header и Footer будут оставаться на месте
             {index: true, element: <Home />},
-            {path: "/deploy-ww/bean:id", element: <BeanPage />},  // пробелы в адресе не ставить !!!
-            {path: "/deploy-ww/beans", element: <Beans />},
-            {path: "/deploy-ww/facts", element: <Facts />},
-            {path: "/deploy-ww/recipes", element: <Recipes />},
-            {path: "/deploy-ww/combinations", element: <Combinations />},
-            {path: "/deploy-ww/History", element: <History />},
-            {path: "/deploy-ww/review", element: <Review />},      // страница формы
+            {path: "bean:id", element: <BeanPage />},  // пробелы в адресе не ставить !!!
+            {path: "beans", element: <Beans />},
+            {path: "facts", element: <Facts />},
+            {path: "recipes", element: <Recipes />},
+            {path: "combinations", element: <Combinations />},
+            {path: "History", element: <History />},
+            {path: "review", element: <Review />},      // страница формы
             {path: "*", element: <NotFound />},
         ],
     },
