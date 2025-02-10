@@ -7,6 +7,10 @@
     margin: 0 auto;
 }
 
+.container h2 {
+    color: green;
+}
+
 .minor_bean {
         width: 20%;
         object-fit:contain;
