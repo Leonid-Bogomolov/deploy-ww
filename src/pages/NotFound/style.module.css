@@ -9,7 +9,11 @@
 
 .container a {
     font-size: 20px;
-    text-decoration: aqua;
+}
+
+.container a:hover {
+    color: green;
+    text-decoration: underline;
 }
 
 .minor_bean {
